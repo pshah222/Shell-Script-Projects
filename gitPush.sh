@@ -6,9 +6,9 @@ if grep -q committed status.txt; then
     echo "There are unstaged changes..."
     git status
     git add .
-    git status
+    echo "Added all the files to the stagging area."
     #Save the commit message in a variable to read
-    echo "Enter the commit message and then hit enter"
+    echo "Enter the commit message and then hit enter to commit changes"
     read commitMessage
     git commit -m "$commitMessage"
     #git status
