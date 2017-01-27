@@ -13,6 +13,14 @@ if grep -q committed temp.txt; then
     git commit -m "$commitMessage"
     #git status
     git push
+    if git push
+      then
+ 	 echo "git push succeeded"
+    else
+         echo "git push failed"
+	 echo "Please retype your credentials properly."
+         git push	
+    fi 
     git status > temp.txt
 else
     echo "Nothing to commit, working directory is clean."
