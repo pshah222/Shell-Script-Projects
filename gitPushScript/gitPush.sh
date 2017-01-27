@@ -12,8 +12,7 @@ if grep -q committed temp.txt; then
     read commitMessage
     git commit -m "$commitMessage"
     #git status
-    git push
-#The line below will check if you entered wrong user id or password, it will ask you to enter again.
+    #The line below will as kyou to enter username and password for github account and aslo check if you entered wrong user id or password, it will ask you to enter again.
     if git push
       then
  	 echo "git push succeeded"
