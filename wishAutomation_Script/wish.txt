@@ -1,0 +1,6 @@
+To: Parth
+From: parth.93mukesh@gmail.com
+Subject: Test email from command line.
+
+Hey, this is the first test email from the command line.
+
