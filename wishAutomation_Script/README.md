@@ -5,3 +5,4 @@ Currently we have to run the script manually but in the future it will be comple
 
 The way I learned about this is from this youtube video: https://www.youtube.com/watch?v=QT-6NbjqjDM
 
+You also created a video explaining project and added here. Please forgive my voice and background noise it is my first video I created so will improve it as I work more. 
