@@ -2,5 +2,5 @@ To: Parth
 From: parth.93mukesh@gmail.com
 Subject: Test email from command line.
 
-Hey, Happy birtday on a random day. This is test email ran from your script. 
+Hey, Happy birtday on a random day. This is test email sent from my script, send me a text if you received the email.  
 
