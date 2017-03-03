@@ -25,4 +25,4 @@ if grep -q committed temp.txt; then
 else
     echo "Nothing to commit, working directory is clean."
     fi
-
+rm temp.txt
