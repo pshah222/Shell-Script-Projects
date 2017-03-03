@@ -11,16 +11,17 @@ TODAY=`date +"%m/%d"`
 
 #Print variable today just to check if it has correct date or no.
 #echo $TODAY
+cat todaysBdays.txt | grep $TODAY bdayPlusEmail.txt > todaysBdays.txt 
 
 #The next line changes the mode of the input from default of command line to a file.
 exec < $birthdayList
 
 #loop through the end of the file loop will terminate by itself when you reach the end of the file.
 while read line
-do  
-echo "Email sent to : $line "
-#Using the things you learned from the youtube video as mentioned in your README.md of this project.
-ssmtp  $line < bdayWish.txt 2> errorLog.txt  
+	do  
+	echo "Email sent to : $line "
+	#Using the things you learned from the youtube video as mentioned in your README.md of this project.
+	ssmtp  $line < bdayWish.txt 2> errorLog.txt  
 done
 
 
