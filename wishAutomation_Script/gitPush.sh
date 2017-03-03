@@ -5,7 +5,7 @@ git status > temp.txt
 if grep -q committed temp.txt; then
     echo "There are unstaged changes..."
     git status
-    git add .
+    git add --all
     echo "Added all the files to the stagging area."
     #Save the commit message in a variable to read
     echo "Enter the commit message and then hit enter to commit changes"
