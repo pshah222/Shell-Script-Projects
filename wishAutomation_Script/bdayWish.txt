@@ -1,4 +1,4 @@
-To: Parth
+To:You 
 From: parth.93mukesh@gmail.com
 Subject: Test email from command line.
 

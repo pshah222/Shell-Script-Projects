@@ -12,7 +12,8 @@ TODAY=`date +"%m/%d"`
 #Print variable today just to check if it has correct date or no.
 #echo $TODAY
 cat todaysBdays.txt | grep $TODAY bdayPlusEmail.txt > todaysBdays.txt 
-
+#awk "{print $2}" todaysBdays.txt > bdaysList.txt 
+#Create file which only has the email address of the people whoever have a birtday today.
 #The next line changes the mode of the input from default of command line to a file.
 exec < $birthdayList
 
