@@ -1,0 +1,13 @@
+File Name                       Description
+------------------------------------------------------------------------------------------------
+bdayPlusEmail.txt		Birthday + Email addresses of the ALL people. 
+				Added to the .gitignore file
+bdaywish.txt			Actual birthday message. 
+errorLog.txt			Will collect all the error messages that ssmtp runs into.
+sendEmailto.txt			The actual people whom the email will be sent based on that day. 
+				Added to the .gitignore file
+
+gitPush.sh 			Automates the git add . + git commit -m "..." 
+				+ git push + authentication 
+wish.sh 			Actual script which will send the email.
+
