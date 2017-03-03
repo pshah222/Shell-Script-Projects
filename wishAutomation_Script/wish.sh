@@ -12,9 +12,9 @@ TODAY=`date +"%m/%d"`
 #Print variable today just to check if it has correct date or no.
 echo $TODAY
 #Over here you really do not need cat command it is jsut there so that your other command would work.
-cat todaysBdays.txt | grep $TODAY bdayPlusEmail.txt > todaysBdays.txt 
+cat ttodaysBdays.txt | grep $TODAY tbdayPlusEmail.txt > ttodaysBdays.txt 
 #Create file which only has the email address of the people whoever have a birtday today.
-cut -d " " -f2 todaysBdays.txt > sendEmailto.txt
+cut -d " " -f2 ttodaysBdays.txt > sendEmailto.txt
 #The next line changes the mode of the input from default of command line to a file.
 exec < $birthdayList
 
