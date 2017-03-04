@@ -49,17 +49,17 @@ someValidationEntry()
   #In the case when user enter some input for verificaiton
   while [ ${#userInputVerification} -ne  0 ]
   do 
-	if [ "$userInputVerification" -eq "s" || "$userInputVerification" -eq "S" ] 
+	if [ "$userInputVerification" == "s" ] ||  [ "$userInputVerification" == "S" ] 
 	then
 	   #The line below only adds a new entry to the list.
            echo $birthday $nameofBdayPerson $emailAddress >> bdayPlusEmail.txt
 	   echo " \"${nameofBdayPerson}\" was added to the list."
 	   break
-	elif [ $userInputVerification -eq "r" || $userInputVerification -eq "R" ]
+	elif [ "$userInputVerification" == "r" ] || [ "$userInputVerification" == "R" ] 
 	then #If user has some error rerun the whole script.
 	   scriptExecutionFun
            break 	
-	elif [ $userInputVerification -eq "q" || $userInputVerification -eq "Q" ]
+	elif [ "$userInputVerification" == "q" ] || [ "$userInputVerification" == "Q" ] 
 	then
 	   break
 	else #If user did not enter r,s, or q, restart thw whole script.
@@ -74,7 +74,6 @@ scriptExecutionFun()
 {
 #To get the user input
 inputPeopleFun
-echo "$userInputVerification"
 
 #Valide userInputverification variable.
 noValidationEntry
