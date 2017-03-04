@@ -1,6 +1,7 @@
 #!/bin/bash
 #Automate the process of sending email from your google account using command line. 
-
+#This file only has the logic of the sending the email who ever has birthday today. It doesn't allow you to add other people in the bday list. 
+#To add people in the list go to the addPeople.sh, it will add append people in bdayPlusEmail.txt
 #Ask user to pass the email address they want to send email.
 #Use the positional parameter to retrive the receiver's email address.
 #save the input file ina variable to use 
