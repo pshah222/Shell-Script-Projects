@@ -1,6 +1,10 @@
 To:You 
 From: parth.93mukesh@gmail.com
-Subject: Test email from command line.
+Subject: Happy Birthday!
 
-Hey, Happy birtday on a random day. This is test email sent from my script, send me a text if you received the email.  
+Hello, I wish you a very Happy birtday from me and my family. Hope you have a wonderful day and great year ahead. :)
 
+From:
+Parth Shah & Family.
+Fremont, CA.
+510-516-9416.
