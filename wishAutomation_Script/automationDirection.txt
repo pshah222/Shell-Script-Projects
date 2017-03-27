@@ -1,0 +1,17 @@
+This file provides the direction to how to automatically run the script at the startup. 
+There are different ways that we can automatically run this script. 
+The best way I found is to run the script after the initial boot up process. 
+You can try using @reboot in a cron tab or have the script run in a gnome terminal after the boot up by adding it to the "Startup Application" from search. 
+I chose to add the script in rc.local file. This file is located in /home/username/etc.
+By default this file is readonly you need to change the access permission. 
+The best thing to do would be is: 
+sudo chmod 755 rc.local
+Now, you will be able to edit the rc.local file. 
+Now, redirect the rc.local to your directory where you have the program. To do that do, 
+cd /path/to/wishAutomation_Dir
+Now, execute the script. 
+sh wish.sh 
+
+Now, you can reboot the machine and once it reboots it will send the wish if there is any mathing person for the day to wish. 
+
+This will reduce your efforts  to run the script manually everyday so no need to wish people manually everyday. 
