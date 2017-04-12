@@ -11,7 +11,6 @@ birthdayList=sendEmailto.txt
 #If we delete at the end of this program then we won't be able to see it. 
 rm wishSentto.txt
 
-
 #Save today's date in a variable
 TODAY=`date +"%m/%d"`
 
