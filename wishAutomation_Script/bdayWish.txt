@@ -3,7 +3,7 @@ From: parth.93mukesh@gmail.com
 Subject: Happy Birthday!
 
 Hello, I wish you a very Happy birtday from me and my family. Hope you have a wonderful day and great year ahead. :)
-This is a test line, after the script was added to the rc.local
+
 
 From:
 Parth Shah & Family.
