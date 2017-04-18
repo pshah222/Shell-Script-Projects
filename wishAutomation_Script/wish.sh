@@ -9,7 +9,6 @@ birthdayList=sendEmailto.txt
 
 #Remove the file wishSentto.txt once you are done with the day, we can not have it at the end.
 #If we delete at the end of this program then we won't be able to see it. 
-rm wishSentto.txt
 
 #Save today's date in a variable
 TODAY=`date +"%m/%d"`
@@ -40,7 +39,7 @@ done
 
 #Delete the sendEmailto.txt once you are done running the script for each day
 rm sendEmailto.txt
-
+rm wishSentto.txt
 
 
 
